@@ -1,8 +1,58 @@
-* {
+body {
   margin: 0;
   box-sizing: border-box;
+  background-color: #eee;
 }
 
-.branding {
-  width: 100%;
+.container {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #1f2532;
+}
+
+.brand {
+  position: relative;
+  width: 700px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #1f2532;
+}
+
+.logo {
+  width: 80px;
+  height: 26px;
+  position: absolute;
+  top: 30px;
+}
+
+.words {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 90px;
+  background-color: #1f2532;
+  font-size: 8px;
+  color: gray;
+  z-index: 5;
+}
+
+.signupbox {
+  width: 60px;
+  height: 26px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  background-color: #30c469;
+  z-index: 6;
+  border-radius: 2px;
+}
+
+.signup {
+  position: absolute;
+  right: 10px;
+  font-size: 10px;
+  color: white;
+  z-index: 7;
 }
