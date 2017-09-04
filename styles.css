@@ -9,18 +9,15 @@
 
 .container {
   width: 900px;
-  height: 600px;
+  height: 420px;
   margin: 0 auto;
 }
 
-header {
-  padding: 20px;
-}
-
 header img.logo {
+  width: 60px;
   position: relative;
-  left: 100px;
-  width: 80px;
+  left: -200px;
+  top: 15px;
 }
 
 #jumbotron > .container {
@@ -30,8 +27,8 @@ header img.logo {
 nav {
   display: inline-block;
   position: absolute;
-  right: 1px;
-  top: -40px;
+  right: -100px;
+  top: 15px;
 }
 
 nav a {
