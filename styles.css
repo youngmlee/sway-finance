@@ -1,58 +1,56 @@
-body {
+* {
   margin: 0;
-  box-sizing: border-box;
-  background-color: #eee;
+  font-family: 'Source Sans Pro';
+}
+
+#jumbotron {
+  background-color: #1f2532;
 }
 
 .container {
-  position: relative;
   width: 900px;
-  height: 500px;
+  height: 420px;
   margin: 0 auto;
-  background-color: #1f2532;
 }
 
-.brand {
+header img.logo {
+  width: 60px;
   position: relative;
-  width: 700px;
-  height: 90px;
-  margin: 0 auto;
-  background-color: #1f2532;
+  left: -200px;
+  top: 15px;
 }
 
-.logo {
-  width: 80px;
-  height: 26px;
-  position: absolute;
-  top: 30px;
+#jumbotron > .container {
+  position: relative;
 }
 
-.words {
-  display: inline-block;
+nav {
   position: absolute;
-  top: 30px;
-  right: 90px;
-  background-color: #1f2532;
-  font-size: 8px;
+  right: -100px;
+  top: 15px;
+  z-index: 15;
+}
+
+nav a {
+  position: relative;
+  left: 24px;
+  text-decoration: none;
   color: gray;
-  z-index: 5;
+  margin-right: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 10px;
+  padding: 1px;
 }
 
-.signupbox {
+nav button {
   width: 60px;
   height: 26px;
-  position: absolute;
-  top: 30px;
-  right: 110px;
+  position: relative;
+  top: -21px;
+  left: 140px;
   background-color: #30c469;
   z-index: 6;
   border-radius: 2px;
-}
-
-.signup {
-  position: absolute;
-  right: 10px;
-  font-size: 10px;
   color: white;
-  z-index: 7;
+  border: none;
 }
