@@ -1,64 +1,59 @@
-body {
+* {
   margin: 0;
-  box-sizing: border-box;
-  background-color: #eee;
+  font-family: 'Source Sans Pro';
+}
+
+#jumbotron {
+  background-color: #1f2532;
 }
 
 .container {
-  position: relative;
   width: 900px;
-  height: 500px;
+  height: 600px;
   margin: 0 auto;
-  background-color: #1f2532;
-  font-family: sans-serif;
 }
 
-.brand {
+header {
+  padding: 20px;
+}
+
+header img.logo {
   position: relative;
-  width: 700px;
-  height: 90px;
-  margin: 0 auto;
-  background-color: #1f2532;
-}
-
-.logo {
+  left: 100px;
   width: 80px;
-  height: 26px;
-  position: absolute;
-  top: 30px;
 }
 
-.words {
+#jumbotron > .container {
+  position: relative;
+}
+
+nav {
   display: inline-block;
   position: absolute;
-  top: 30px;
-  right: 90px;
-  background-color: #1f2532;
-  font-size: 8px;
-  color: gray;
-  z-index: 5;
+  right: 1px;
+  top: -40px;
 }
 
-.signupbox {
+nav a {
+  position: relative;
+  left: 24px;
+  text-decoration: none;
+  color: gray;
+  margin-right: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 10px;
+  padding: 1px;
+}
+
+nav button {
   width: 60px;
   height: 26px;
-  position: absolute;
-  top: 30px;
-  right: 110px;
+  position: relative;
+  top: -21px;
+  left: 140px;
   background-color: #30c469;
   z-index: 6;
   border-radius: 2px;
-}
-
-.signup {
-  position: relative;
-  bottom: 3.5px;
-  left: 7px;
-  font-size: 10px;
   color: white;
-  z-index: 7;
-}
-
-p {
-  font-size: 1.1em;
+  border: none;
 }
