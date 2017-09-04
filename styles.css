@@ -10,6 +10,7 @@ body {
   height: 500px;
   margin: 0 auto;
   background-color: #1f2532;
+  font-family: sans-serif;
 }
 
 .brand {
@@ -50,9 +51,14 @@ body {
 }
 
 .signup {
-  position: absolute;
-  right: 10px;
+  position: relative;
+  bottom: 3.5px;
+  left: 7px;
   font-size: 10px;
   color: white;
   z-index: 7;
+}
+
+p {
+  font-size: 1.1em;
 }
